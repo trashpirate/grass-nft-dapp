@@ -68,8 +68,8 @@ export default function AccountInfo() {
             } else if (tokenSuccess && balance != null) {
 
                 text = `${balance.toLocaleString(undefined, {
-                    minimumFractionDigits: 3,
-                    maximumFractionDigits: 3,
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0,
                 })}${String.fromCharCode(8239)} ${process.env.NEXT_PUBLIC_TOKEN_SYMBOL
                     }`;
             } else {
