@@ -265,7 +265,7 @@ export default function MintButton({ paused }: Props) {
         <>
             <div className="flex flex-row justify-center w-full ">
                 <div className='flex flex-row w-fit mx-auto gap-4'>
-                    {!paused && isConnected && <input
+                    <input
                         className="ml-auto rounded bg-secondary/20 py-1 px-2 text-left text-textColor h-10 w-24 placeholder:italic placeholder:text-secondary/50 placeholder-shown:border-secondary/50 border-secondary/50 border-2"
                         type="number"
                         value={quantity >= 1 ? String(quantity) : ""}
@@ -275,17 +275,17 @@ export default function MintButton({ paused }: Props) {
                         onChange={(e) => {
                             setQuantity(Number(e.target.value));
                         }}
-                        disabled={mintPending || approvePending || paused}
-                    />}
+                        disabled={mintPending || approvePending || paused || !isConnected}
+                    />
 
-                    {!paused && isConnected && <button
+                    <button
                         type="button"
-                        disabled={mintPending || approvePending || paused}
+                        disabled={mintPending || approvePending || paused || !isConnected}
                         onClick={onSubmit}
                         className={"w-24 rounded-md bg-secondary text-base font-bold h-10 mr-auto flex justify-center align-middle " + getButtonStyle()}
                     >
                         <div className='my-auto font-heading leading-4 h-fit'>MINT</div>
-                    </button>}
+                    </button>
                 </div>
 
             </div>
