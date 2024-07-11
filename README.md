@@ -39,19 +39,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![FlamelingQueens](https://github.com/trashpirate/liquid-dapp/blob/master/public/title.png?raw=true)
+![TouchGrassy](https://app.touchbasedgrass.com/title.png?raw=true)
 
-This repository contains the code of a minting dapp developed for the NFT collection [Liquid](https://opensea.io/collection/liquid-base).
+This repository contains the code of a minting dapp developed for the NFT collection [Touch Grassy](https://opensea.io/collection/touch-grassy).
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ### Contracts on BASE MAINNET
 
-**Token Contract (USDC)**  
-https://basescan.org/token/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+#### TOKEN Contract Mainnet  
+https://basescan.org/address/0xBb4f69A0FCa3f63477B6B3b2A3E8491E5425A356
 
-**NFT Contract**  
-https://basescan.org/address/0x0528C4DFc247eA8b678D0CA325427C4ca639DEC2
+#### NFT Contract Mainnet
+https://basescan.org/address/0xe9e5d3f02e91b8d3bc74cf7cc27d6f13bdfc0bb6
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -60,11 +60,11 @@ https://basescan.org/address/0x0528C4DFc247eA8b678D0CA325427C4ca639DEC2
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/trashpirate/liquid-dapp.git
+   git clone https://github.com/trashpirate/grass-nft-dapp.git
    ```
 2. Navigate to the project directory
    ```sh
-   cd liquid-dapp
+   cd grass-nft-dapp
    ```
 3. Install NPM packages
    ```sh
@@ -80,14 +80,14 @@ Before running any commands, create a .env file and add the following environmen
 NEXT_PUBLIC_PROJECT_NAME="Title"
 NEXT_PUBLIC_PROJECT_ID="Project Id from WalletConnect" # https://cloud.walletconnect.com/app
 NEXT_PUBLIC_PROJECT_DESCRIPTION="Description"
-NEXT_PUBLIC_TOKEN_SYMBOL="BEP-20 Token Symbol"
+NEXT_PUBLIC_TOKEN_SYMBOL="Token Symbol"
 
 # chain configs
 NEXT_PUBLIC_ALCHEMY_API_KEY=<your API key> # https://www.alchemy.com/
 
-NEXT_PUBLIC_ENABLE_TESTNET=true # toggles to use testnet configuration or base
+NEXT_PUBLIC_ENABLE_TESTNET=true # toggles to use testnet configuration or mainnet
 
-# smart contract configs (toggle these to switch between testnet and base)
+# smart contract configs (toggle these to switch between testnet and mainnet)
 NEXT_PUBLIC_RPC_URL="RPC URL" # e.g. https://www.ankr.com/ or  https://www.alchemy.com/ (depends on chains and your preference)
 NEXT_PUBLIC_TOKEN_CONTRACT="Contract Address"
 NEXT_PUBLIC_NFT_CONTRACT="Contract Address"
@@ -140,7 +140,7 @@ Nadina Oates - [@N0_crypto](https://twitter.com/N0_crypto)
 
 Main Repository: [https://github.com/trashpirate/liquid-nfts](https://github.com/trashpirate/liquid-nfts)
 
-Project Link: [https://liquid.buyholdearn.com/](https://liquid.buyholdearn.com/)
+Project Link: [https://app.touchbasedgrass.com/](https://app.touchbasedgrass.com/)
 
 
 <!-- ACKNOWLEDGMENTS -->
