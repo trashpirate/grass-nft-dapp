@@ -1,4 +1,4 @@
-# LIQUID DAPP
+# TOUCH GRASSY DAPP
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
 ![Node](https://img.shields.io/badge/node-v12.22.9-blue.svg?style=for-the-badge)
