@@ -1,4 +1,4 @@
-# TOUCH GRASSY DAPP
+# TOUCH GRASSY DAPP 🌿
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?style=for-the-badge)
 ![Node](https://img.shields.io/badge/node-v12.22.9-blue.svg?style=for-the-badge)
@@ -7,7 +7,7 @@
 ![Tailwindcss](https://img.shields.io/badge/TailwindCSS-v3.4.1-blue?style=for-the-badge)
 ![Wagmi](https://img.shields.io/badge/Wagmi-v2.8.0-blue?style=for-the-badge)
 ![Viem](https://img.shields.io/badge/Viem-v2.9.31-blue?style=for-the-badge)
-[![License: MIT](https://img.shields.io/github/license/trashpirate/hold-earn.svg?style=for-the-badge)](https://github.com/trashpirate/hold-earn/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/trashpirate/grass-nft-dapp?style=for-the-badge)](https://github.com/trashpirate/grass-nft-dapp/blob/master/LICENSE)
 
 [![Website: nadinaoates.com](https://img.shields.io/badge/Portfolio-00e0a7?style=for-the-badge&logo=Website)](https://nadinaoates.com)
 [![LinkedIn: nadinaoates](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=LinkedIn&logoColor=f5f5f5)](https://linkedin.com/in/nadinaoates)
@@ -34,7 +34,7 @@
   </ol>
 </details>
 
-
+### ✨ [DApp](https://app.touchbasedgrass.com)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
