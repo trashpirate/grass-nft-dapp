@@ -26,7 +26,7 @@ export const config = createConfig(
 
     // Optional App Info
     appDescription: process.env.NEXT_PUBLIC_PROJECT_DESCRIPTION,
-    appUrl: "https://liquid.buyholdearn.com", // your app's url
-    appIcon: "https://liquid.buyholdearn.com/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
+    appUrl: "https://app.touchbasedgrass.com", // your app's url
+    appIcon: "https://app.touchbasedgrass.com/logo.png", // your app's icon, no bigger than 1024x1024px (max. 1MB)
   })
 );
